@@ -18,11 +18,11 @@ int main()
     printf("Enter the element to search: ");
     scanf("%d", &key);
 
-    // Initialize tracking indices for binary search
+    
     low = 0;         
     high = n - 1;
 
-    // Binary search loop logic
+    
     while (low <= high) 
     {
         mid = (low + high) / 2;
